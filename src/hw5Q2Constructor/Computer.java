@@ -24,10 +24,4 @@ public class Computer {
 				+ " Price: $" + price + ", Grade: " + grade + " , and Made in the USA? Ans: " + madeInUSA);
 	}
 
-	public Computer(char grade, boolean madeInUSA) {
-		this.grade = grade;
-		this.madeInUSA = madeInUSA;
-		System.out.println("Grade: " + grade + " Made in the USA? Ans: " + madeInUSA);
-	}
-
 }
