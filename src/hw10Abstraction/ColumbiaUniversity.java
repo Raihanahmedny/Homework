@@ -8,6 +8,7 @@ package hw10Abstraction;
 public class ColumbiaUniversity {
 	// Default Constructor
 	public ColumbiaUniversity() {
+		System.out.println("This is the default constructor of ColumbiaUniversity");
 	}
 	// Abstract method
 	// public abstract void chemistry();

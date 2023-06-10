@@ -10,9 +10,11 @@ public interface University {
 	void teacher();
 
 	default void gymnasium() {
+		System.out.println("This is the default method gymnasium inside the University interface");
 	}
 
 	static void library() {
+		System.out.println("This is the static method library inside the University interface");
 
 		/*
 		 * Interfaces can inherit from other interfaces using the extends keyword.
