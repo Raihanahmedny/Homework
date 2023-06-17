@@ -1,4 +1,4 @@
-package hw11Abstraction;
+package hw12Abstraction;
 
 /*
  * The "MedicalSchool" class extends the "NursingSchool" abstract class.
@@ -20,7 +20,7 @@ package hw11Abstraction;
            public abstract class MedicalSchool extends NursingSchool implements LawSchool {}
 */
 
-public abstract class MedicalSchool {
+public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public MedicalSchool() {// Default Constructor
 	}
 
@@ -29,5 +29,4 @@ public abstract class MedicalSchool {
 	public void biochemistryLab() {
 		System.out.println("This is the implementation of biochemistryLab method");
 	}
-
 }
